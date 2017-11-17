@@ -1,8 +1,7 @@
-import java.util.ArrayList;
+
 
 public class Hashtable<K, V> {
 	
-	private ArrayList<HashNode<K, V>> BucketArray;
 	
 	public class HashNode<K, V> {
 		K key;
